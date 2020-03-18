@@ -1,10 +1,10 @@
 # Toy Robot
 
 #### Table Of Contents
-[Description](#description)
-[Configuration and Instruction](#configuration-and-Instruction)
-[Robot Operating Instructions](#robot-operating-instructions)
-[Testing Instructions](#testing-instructions)
+- [Description](#description)
+- [Configuration and Instruction](#configuration-and-Instruction)
+- [Robot Operating Instructions](#robot-operating-instructions)
+- [Testing Instructions](#testing-instructions)
 
 
 ### Description
@@ -32,12 +32,12 @@ $ npm start
 This app only can read in commands of the following (textual) form
 
 The Robot can read in commands of the following form (case insensitive):
-```
+
 - PLACE X,Y,F will put the toy robot on the table in position X,Y and facing F (NORTH, SOUTH, EAST or WEST).
 - MOVE will move the toy robot one unit forward in the direction it is currently facing.
 - LEFT and RIGHT will rotate the robot 90 degrees in the specified direction without changing the position of the robot.
 - REPORT will announce the X,Y and F of the robot. This can be in any form, but standard output is sufficient.
-```
+
 * All other invalid commands would be ignored
 
 Details:
